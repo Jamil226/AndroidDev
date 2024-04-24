@@ -15,7 +15,8 @@
 
 Welcome to the Android Application Development repository! This repository covers a comprehensive range of Android app development concepts, focusing primarily on Kotlin as the source language. Whether you're a beginner or an experienced developer, you'll find valuable resources and examples here to enhance your skills and build impressive Android applications.
 
-##Overview
+Overview
+---------------
 
 This repository is a treasure trove of knowledge for Android developers, encompassing various essential topics and advanced techniques. From layout design to data storage and retrieval, you'll find everything you need to create robust and user-friendly Android applications. The repository emphasizes clean code practices and follows modern Android development standards.
 
