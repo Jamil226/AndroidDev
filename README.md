@@ -25,12 +25,12 @@ Topics Covered
 
 **Layouts**
 
-    Linear Layout
-    Relative Layout
-    Constraint Layout
-    TableLayout
-    Responsive App Design with Scroll Views
-    ViewPager2
+* Linear Layout
+* Relative Layout
+* Constraint Layout
+* TableLayout
+* Responsive App Design with Scroll Views
+* ViewPager2
 
     
 **Navigation**
@@ -72,4 +72,4 @@ Topics Covered
 
 Contributions
 ---------------
-Contributions to this repository are highly encouraged! Whether it's fixing a bug, enhancing existing features, or adding new topics, your contributions help make this repository more valuable to the Android development community.
+_Contributions to this repository are highly encouraged! Whether it's fixing a bug, enhancing existing features, or adding new topics, your contributions help make this repository more valuable to the Android development community._
