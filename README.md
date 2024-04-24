@@ -22,7 +22,7 @@ This repository is a treasure trove of knowledge for Android developers, encompa
 #Topics Covered
 
 **Layouts**
-Markup : - Bullet list
+
     Linear Layout
     Relative Layout
     Constraint Layout
