@@ -35,40 +35,39 @@ Topics Covered
     
 **Navigation**
 
-    Navigation Drawer (Customized)
-    Bottom Navigation (Customized)
-    Splash Screen
+* Navigation Drawer (Customized)
+* Bottom Navigation (Customized)
+* Splash Screen
     
 **UI Elements**
 
-    Lottie Animations
-    Toasts and Intents
-    View Binding
-    Custom Fonts
-    Custom Drawables
-    Custom Colors & Strings
-    App Assets
-    Card Views
-    Recycler Views
-    List Views
-    Circular Image View
+* Lottie Animations
+* Toasts and Intents
+* View Binding
+* Custom Fonts
+* Custom Drawables
+* Custom Colors & Strings
+* App Assets
+* Card Views
+* Recycler Views
+* List Views
+* Circular Image View
     
 **Architecture**
 
-    Fragments
-    Adapter
-    Models
-    Theme Customization
-    Toolbar Customization
+* Fragments
+* Adapter
+* Models
+* Theme Customization
+* Toolbar Customization
 
 **Data Management**
 
-    Message Passing using Intents
-    Shared Preferences (Data Storage & Data Retrieval)
-    Room Database
-    Coroutines
-    Contribution
-
+* Message Passing using Intents
+* Shared Preferences (Data Storage & Data Retrieval)
+* Room Database
+* Coroutines
+* Contribution
 
 Contributions
 ---------------
