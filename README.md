@@ -20,7 +20,8 @@ Overview
 
 This repository is a treasure trove of knowledge for Android developers, encompassing various essential topics and advanced techniques. From layout design to data storage and retrieval, you'll find everything you need to create robust and user-friendly Android applications. The repository emphasizes clean code practices and follows modern Android development standards.
 
-##Topics Covered
+Topics Covered
+---------------
 
 **Layouts**
 
@@ -68,5 +69,7 @@ This repository is a treasure trove of knowledge for Android developers, encompa
     Coroutines
     Contribution
 
-    
+
+Contributions
+---------------
 Contributions to this repository are highly encouraged! Whether it's fixing a bug, enhancing existing features, or adding new topics, your contributions help make this repository more valuable to the Android development community.
