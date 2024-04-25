@@ -70,5 +70,4 @@ Topics Covered
 
 Contributions
 ---------------
-_Contributions to this repository are highly encouraged! Whether it's fixing a bug, enhancing existing features, or adding new topics, your contributions help make this repository more valuable to the Android development community.
-![Uploading image.png…]()
+_Contributions to this repository are highly encouraged! Whether it's fixing a bug, enhancing existing features, or adding new topics, your contributions help make this repository more valuable to the Android development community._
