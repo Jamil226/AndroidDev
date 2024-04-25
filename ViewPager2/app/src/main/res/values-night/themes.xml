@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyEleventhApp" parent="Theme.Material3.Dark">
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/red</item>
+    </style>
+</resources>

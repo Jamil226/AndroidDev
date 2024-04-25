@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyThirdApp</string>
+
+    <string name="login_label">Login Area</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="placeholder_username">Enter Username</string>
+    <string name="placeholder_password">Enter Password</string>
+    <string name="btn_login">Login</string>
+</resources>

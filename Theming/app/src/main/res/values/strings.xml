@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Theming App</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_text">Room is a persistence library provided by the Android Jetpack architecture components. It is designed to make it easier to work with SQLite databases in Android applications. Room provides an abstraction layer over SQLite to allow for more robust database access while leveraging the full power of SQLite. </string>
+</resources>

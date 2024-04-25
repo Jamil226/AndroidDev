@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFifteenthApp</string>
+
+    <string name="upload_image">Upload an Image</string>
+    <string name="call">Call Us Now</string>
+    <string name="email">Send Email</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNinthApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/secondary</item>
+    </style>
+
+    <style name="Theme.MyNinthApp" parent="Base.Theme.MyNinthApp" />
+</resources>

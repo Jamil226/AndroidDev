@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyNinthApp</string>
+    <string name="product_name">Product Name</string>
+    <string name="distance">1.3 KM</string>
+    <string name="rating">4.4</string>
+    <string name="price">Rs. 1000</string>
+    <string name="favourite">Favourite</string>
+    <string name="todo">TODO</string>
+</resources>

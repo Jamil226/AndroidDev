@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MySecondApp</string>
+
+    <string name="login_label">Login Area</string>
+    <string name="sign_up_label">Sign Up Area</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="placeholder_username">Enter Username</string>
+    <string name="placeholder_password">Enter Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="label_no_account">Don\'t have an account?</string>
+    <string name="label_already_account">Already have an account?</string>
+    <string name="label_login_now">Login Now</string>
+    <string name="label_sign_up_now">Sign Up</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFifteenthApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/success</item>
+    </style>
+
+    <style name="Theme.MyFifteenthApp" parent="Base.Theme.MyFifteenthApp" />
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetails">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pizza"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/white"
+        android:layout_below="@+id/toolbar"
+        />
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_below="@id/profile_image"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/product_name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewProductRating"
+        android:layout_below="@id/textViewProductName"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textViewProductDistance"
+        android:layout_below="@id/textViewProductRating"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distance"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textViewProductPrice"
+        android:layout_below="@id/textViewProductDistance"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/price"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

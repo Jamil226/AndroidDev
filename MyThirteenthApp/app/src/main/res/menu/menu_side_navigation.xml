@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Group 1: Main Navigation Items -->
+    <group android:id="@+id/group_main_navigation"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/nav_my_home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icon_about"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/icon_contact"
+            android:title="@string/nav_contact" />
+    </group>
+
+    <!-- Group 2: Settings and Other Options -->
+    <group android:id="@+id/group_settings"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_app_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/nav_settings" />
+    </group>
+
+</menu>

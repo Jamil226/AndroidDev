@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Theming" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/dark</item>
+    </style>
+    <!--    Dark Mode Styling-->
+    <style name="TOOLBAR">
+        <item name="android:background">@color/secondary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="SCREEN">
+        <item name="background">@color/dark</item>
+    </style>
+    <style name="TEXT">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="BUTTON">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FAB">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+</resources>

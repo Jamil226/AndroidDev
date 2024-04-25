@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MySeventhApp" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Theme.MySeventhApp" parent="Base.Theme.MySeventhApp" />
+</resources>

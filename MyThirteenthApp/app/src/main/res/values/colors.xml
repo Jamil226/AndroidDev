@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3D5BF6</color>
+    <color name="primaryLight">#8092ED</color>
+    <color name="primaryDark">#0D277A</color>
+    <color name="black">#FF000000</color>
+    <color name="dark_gray">#131313</color>
+    <color name="light_gray_100">#535353</color>
+    <color name="light_gray">#B9BABA</color>
+    <color name="menu_divider">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="success">#198754</color>
+    <color name="danger">#DC3545</color>
+
+    <color name="blue_100">#E3F2FD</color>
+    <color name="blue_200">#BBDEFB</color>
+    <color name="blue_300">#90CAF9</color>
+    <color name="blue_400">#64B5F6</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="blue_1000">#82B1FF</color> <!-- Lighter shade of blue -->
+    <color name="blue_1100">#448AFF</color> <!-- Brighter shade of blue -->
+    <color name="blue_1200">#2979FF</color> <!-- Vivid shade of blue -->
+
+</resources>

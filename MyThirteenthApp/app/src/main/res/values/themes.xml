@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyThirteenthApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+         <item name="colorPrimary">@color/blue_800</item>
+    </style>
+
+    <style name="Theme.MyThirteenthApp" parent="Base.Theme.MyThirteenthApp" />
+    <!--    Light mode styling start -->
+    <style name="Toolbar">
+        <item name="android:backgroundTint">@color/blue_800</item>
+        />
+    </style>
+    <style name="Screen">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="Text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Button">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="BottomNavigation">
+        <item name="android:background">@drawable/bottom_navigation_light</item>
+    </style>
+    <!--    Light mode styling end -->
+
+</resources>

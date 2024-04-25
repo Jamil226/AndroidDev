@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_products"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    android:layout_margin="8dp"
+    android:background="@color/white">
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/iv_product_image"
+            android:layout_width="0dp"
+            android:layout_height="155dp"
+            android:layout_weight="0.75"
+            android:src="@drawable/image_placeholder"
+            android:contentDescription="@string/todo" />
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/product_name"
+                />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <ImageView
+                        android:id="@+id/delivery_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon_delivery_time"/>
+                    <TextView
+                        android:id="@+id/tv_product_distance"
+                        android:layout_toEndOf="@+id/delivery_icon"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="@string/distance"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/layout_rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <ImageView
+                        android:id="@+id/product_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_rating"
+                        android:contentDescription="@string/todo" />
+                    <TextView
+                        android:id="@+id/tv_rating"
+                        android:layout_toEndOf="@+id/product_rating"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="@string/rating"
+                        />
+                </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_rating"
+                    android:contentDescription="@string/todo" />
+                <TextView
+                    android:id="@+id/tv_product_price"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_toEndOf="@+id/iv_product_price"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price"/>
+                <ImageView
+                    android:id="@+id/iv_product_is_favourite"
+                    android:layout_toEndOf="@+id/tv_product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/icon_favourite"
+                    android:contentDescription="@string/favourite" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
