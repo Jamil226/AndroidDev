@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="success">#1A8753</color>
+    <color name="danger">#DD3545</color>
+    <color name="warning">#FFC12B</color>
+    <color name="dark">#21262A</color>
+    <color name="light">#F3F3F3</color>
+    <color name="primaryVariant">#41ABE4</color>
+    <color name="primary">#41ABE4</color>
+    <color name="secondary">#6C757C</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+
+    <color name="icon_tint">#41ABE4</color>
+    <color name="accent_color">#41ABE4</color>
+    <color name="accent_color_light">#A7CEE3</color>
+    <color name="colorPrimaryDark">#41ABE4</color>
+
+    <color name="dark_background">#202125</color>
+    <color name="dark_surface">#323337</color>
+    <color name="dark_on_surface">#F4F4F4</color>
+    <color name="dark_on_background">#B7B8BA</color>
+    <color name="surface2light">#F4F4F4</color>
+    <color name="surface2dark">#1B1919</color>
+
+    <color name="ube_light">#D0F8D2</color>
+    <color name="ube_dark">#518C54</color>
+    <color name="recycle_light">#FBDBDB</color>
+    <color name="recycle_dark">#973030</color>
+    <color name="orange">#FFA000</color>
+    <color name="print_divider_color">#000000</color>
+
+
+</resources>

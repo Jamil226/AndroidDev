@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment">
+
+
+    <TextView
+        android:id="@+id/tv_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_settings"
+        android:textSize="30sp"
+        android:textColor="@color/lavender"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_settings"
+        android:textAllCaps="false"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
