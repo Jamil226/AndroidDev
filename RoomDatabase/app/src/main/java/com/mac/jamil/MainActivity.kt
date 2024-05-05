@@ -23,7 +23,6 @@ import kotlinx.coroutines.launch
 import java.util.Date
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
-//    private lateinit var database: InventoryDatabase
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
