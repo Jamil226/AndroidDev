@@ -23,7 +23,6 @@ abstract class InventoryDatabase: RoomDatabase() {
             override fun migrate(db: SupportSQLiteDatabase) {
                 db.execSQL("ALTER TABLE categories ADD COLUMN status INTEGER NOT NULL DEFAULT(1)")
             }
-
         }
 
         @Volatile
