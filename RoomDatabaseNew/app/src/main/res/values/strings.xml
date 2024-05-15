@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomDatabaseNew</string>
+    <string name="submit">Submit</string>
+    <string name="view">View</string>
+    <string name="expense">Expense</string>
+    <string name="expense_detail">Expense Detail</string>
+    <string name="amount">Amount</string>
+    <string name="expense_tracking">Expense Tracking</string>
+</resources>

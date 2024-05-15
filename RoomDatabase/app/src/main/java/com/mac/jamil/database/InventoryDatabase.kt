@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverter
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
@@ -26,7 +25,13 @@ abstract class InventoryDatabase: RoomDatabase() {
         }
 
         @Volatile
+        /*Ye annotation iss liye use krty hain ta k jesy he hmary instance ko koi value assign
+        ho to sary threads ko pata chal jata k iski value update ho gyi hai
+        Signleton Pattern for saving threads
+        Locking implementation
+        */
         private var INSTANCE : InventoryDatabase? = null
+
         fun getDatabase(context: Context) : InventoryDatabase {
             if(INSTANCE == null){
                synchronized(this){
