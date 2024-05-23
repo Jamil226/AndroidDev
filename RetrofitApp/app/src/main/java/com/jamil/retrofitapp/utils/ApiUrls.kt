@@ -1,9 +1,9 @@
 package com.jamil.retrofitapp.utils
 
-object Urls {
+object ApiUrls {
 
     //Base URLs
-    var baseURL: String = "http://gpgcs.edu.pk/CollegeApp/LoadNews.php"
-    var imgPath: String = "http://gpgcs.edu.pk/dean/"
+    const val baseURL: String = "http://gpgcs.edu.pk/CollegeApp/LoadNews.php"
+    const val imagePath: String = "http://gpgcs.edu.pk/dean/"
 
 }
