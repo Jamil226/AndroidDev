@@ -67,6 +67,10 @@ Topics Covered
 * Shared Preferences (Data Storage & Data Retrieval)
 * Room Database
 * Coroutines
+* MVVM
+* JSON Parsing using Retrofit2
+* MySQL Database Connection using REST APIs 
+
 
 Contributions
 ---------------
