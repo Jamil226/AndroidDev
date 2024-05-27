@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">RetrofitApp</string>
+
+    <string name="copyrights">All Rights Reserved &#169; Muhammad Jamil</string>
+    <string name="todo">TODO</string>
+    <string name="news_category">World</string>
+    <string name="news_post_by">Admin</string>
+    <string name="news_title">The quick brown fox jumps over the lazy dog</string>
+    <string name="news_details">The quick brown fox jumps over the lazy dog</string>
+
+    <string name="post_by">Posted by:</string>
+    <string name="post_by_name">Muhammad Jamil</string>
+    <string name="posted_on">Posted on:</string>
+    <string name="posted_on_date">01&#8211;06&#8211;2024</string>
+    <string name="scholarship_deadline_label">Deadline:</string>
+    <string name="scholarship_deadline">01&#8211;06&#8211;2024</string>
+    <string name="scholarship_apply_link_label">Apply Now:</string>
+    <string name="scholarship_apply_link">Click Here</string>
+
+
 </resources>
